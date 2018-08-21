@@ -25,7 +25,7 @@ public class OperatorExam {
 
 		int ii5 = ii3++;
 		System.out.println(String.format("ii5 = ii3++ : ii5 = %d  and ii3 = %d", ii5, ii3));
-		
+
 		System.out.println("\n");
 
 		iii3 = i3;
