@@ -29,21 +29,21 @@ public class OperatorExam {
 		System.out.println("\n");
 
 		iii3 = i3;
-		iii4 = 0;
+		iii4 = -1;
 
-		while (iii4 <= 0) {
+		while (iii4 < 0) {
 			iii4 = ++iii3;
 			// System.out.println("[++V] i4 = " + i4 + " , i3 = " + i3);
-			System.out.println(String.format("[++V] iii4 =  %d , iii3 = %d", iii4, iii3));
+			System.out.println(String.format("[++iii3] iii4 =  %d , iii3 = %d", iii4, iii3));
 		}
 		System.out.println("\n");
 
 		iii3 = i3;
-		iii4 = 0;
+		iii4 = -1;
 
-		while (iii4 <= 0) {
+		while (iii4 < 0) {
 			iii4 = iii3++;
-			System.out.println(String.format("[V++] iii4 =  %d , iii3 = %d", iii4, iii3));
+			System.out.println(String.format("[iii3++] iii4 =  %d , iii3 = %d", iii4, iii3));
 		}
 	}
 
