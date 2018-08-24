@@ -9,6 +9,6 @@ package javaStudy.classExam;
 public class AccessObj {
 	public int p = 3 ;
 	protected int p2  = 4 ;  // access allow same package and extends classes
-	private int p3 = 5 ;   // acces allow this class
+	//private int p3 = 5 ;   // acces allow this class
 	int k = 2 ;
 }

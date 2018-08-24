@@ -7,6 +7,7 @@ public class BusExam {
 		Bus bus = new Bus();
 		
 		bus.run();
+		
 		bus.pp();
 		
 		Car car = new Car();
