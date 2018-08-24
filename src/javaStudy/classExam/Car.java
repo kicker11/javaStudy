@@ -1,4 +1,4 @@
-package classExam;
+package javaStudy.classExam;
 
 public class Car {
 
@@ -6,7 +6,26 @@ public class Car {
 	// 델파이의 type 과 비슷
 	String name ;
 	int number ;
+	
+	
+	public Car() {
+//		this.name = "no name" ;
+//		this.number = 0 ;
+		this("no name", 0) ;
+	}
+	
+	public Car(String name) {
+		this.name = name ;
+	}
+	
+	public Car(String name, int number) {
+		this.name = name ;
+		this.number = number ;
+	}
 		
+	
+	
+	
 	public int fw(int curr, int val) {
 	    curr += val ;
 	    System.out.println(String.format("Forward %d Steps", val));
@@ -29,5 +48,9 @@ public class Car {
 		}
 		System.out.print("\n");
 		return curr ;
+	}
+	
+	public void run() {
+		System.out.println("달린다") ;
 	}
 } //end of class Car

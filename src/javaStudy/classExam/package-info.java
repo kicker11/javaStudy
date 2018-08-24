@@ -5,4 +5,4 @@
  * @author kicker
  *
  */
-package classExam;
+package javaStudy.classExam;

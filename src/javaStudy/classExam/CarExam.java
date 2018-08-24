@@ -1,10 +1,10 @@
-package classExam;
+package javaStudy.classExam;
 
 public class CarExam {
 
 	public void runCarExam() {
-		Car c1 = new Car() ;
-		Car c2 = new Car() ;
+		Car c1 = new Car("소방차") ;
+		Car c2 = new Car("구급차") ;
 		
 		String str = new String("helloWorld") ;
 		
