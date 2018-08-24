@@ -14,7 +14,7 @@ public class CreatorTest {
 		System.out.println(c2.name) ;
 		System.out.println(c3.name) ;
 		
-		OperatorExam opEx  = new OperatorExam() ;
+		//OperatorExam opEx  = new OperatorExam() ;
 	}
 
 }
