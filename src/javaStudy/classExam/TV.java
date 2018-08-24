@@ -8,4 +8,5 @@ public interface TV {
     public void turnOff();
     public void changeVolume(int volume);
     public void changeChannel(int channel);
+    public boolean isHangOn(boolean yn) ;
 }
