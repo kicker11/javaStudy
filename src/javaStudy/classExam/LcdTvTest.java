@@ -9,6 +9,7 @@ public class LcdTvTest {
 		tv.turnOff();
 		tv.changeVolume(3);
 		tv.changeChannel(17);
+		System.out.println(tv.isHangOn(true));
 	}
 
 }

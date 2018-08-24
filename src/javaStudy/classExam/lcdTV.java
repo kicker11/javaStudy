@@ -27,12 +27,12 @@ public class lcdTV implements TV {
 	}
 
 	@Override
-	public boolean isHangOn(boolean yn) {
+	public String isHangOn(boolean yn) {
 		// TODO Auto-generated method stub
 		if (yn = true) {
-			return true;
+			return "벽걸이형";
 		}else {
-			return false ;
+			return "스탠드형" ;
 		}
 		
 	}
